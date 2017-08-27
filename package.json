@@ -28,6 +28,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "spin.js": "^2.0.0"
+    "spin.js": "^2.3.2"
   }
 }

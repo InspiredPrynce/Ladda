@@ -24,16 +24,6 @@ module.exports = function(grunt) {
 					'dist/ladda.min.js': 'js/ladda.js'
 				}
 			},
-			lib: {
-				options: {
-					output: {
-						comments: /^!/
-					}
-				},
-				files: {
-					'dist/spin.min.js': 'js/spin.js',
-				}
-			}
 		},
 
 		sass: {
@@ -121,5 +111,4 @@ module.exports = function(grunt) {
 
 	// Serve presentation locally
 	grunt.registerTask( 'serve', [ 'connect', 'watch' ] );
-
 };
